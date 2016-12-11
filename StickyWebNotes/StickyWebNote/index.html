@@ -8,6 +8,7 @@
 <div  class="col-lg-10" style="color:blue; font-size:18px" >{{posts._Title}}</div>
 </div>
 <p style="color:black;">{{posts._Body}}</p>
+<button ng-click="upVote($index)">Vote Up ({{posts.upVote}})</button> <button ng-click="downVote($index)">Vote Down({{posts.downVote}})</button>
 <div></div>
 </div>
 	<ul>
